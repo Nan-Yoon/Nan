@@ -1,0 +1,26 @@
+<head>
+ <style>
+     body {background-color :earth;}
+     h1 {
+         text-align:center;
+         color:red;
+         }
+git            text-align:center;
+            color:black;
+            }
+</style>
+</head>
+<body>
+
+    <h1>Add Student</h1>
+        <form action="addrecord/" method="post">
+        {% csrf_token %}
+        Roll Number:<br>
+        <input name="roll">
+        <br><br>
+        Name:<br>
+        <input name="name">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	font-family : Arial, helvetica, sans-serif;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+	background : rgb(50,150,162);
+	color: black;
+}
+
+#title {
+	background : rgb (5,173,162);
+	color: black;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+#description {
+	text-align : center;
+}
+
+#text {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	background: brown;
+	color: black;
+	padding: 20px;
+}
+
+.row-tab {
+	display: block;
+	padding-bottom: 25px;
+}
+
+.label-tab {
+	display: inline-block;
+	width: 44%;
+	text-align: right;
+	vertical-align: top;
+}
+
+.input-tab {
+	display: inline-block;
+	width: 54%;
+	text-align: left;
+}
+
+.select-tab {
+	display: inline-block;
+	width: 54%;
+	text-align: left;
+}
+
+#select-box {
+	padding: 5px 0px;
+}
+</style>
+</head>
+    <title>ITPEC Examination Form</title>
+<body>
+    <header id="title">
+	    <h1>ITPEC Examination Form</h1>
+	</header>
+	<section>
+	    <div class="container">
+		    <div id="description">
+			    <p>Please fill up all information with English Language</p>
+			</div>
+			<form id="survey-form">
+			    <div class="row-tab">
+				<div class="label-tab">
+				    <label>Name</label>
+				</div>
+				<div class="input-tab">
+				    <input type="text" name="Name" placeholder="Enter your name">
+				</div>
+				</div>
+			    <div class="row-tab">
+				<div class="label-tab">
+				    <label>Email</label>
+				</div>
+				<div class="input-tab">
+				    <input type="email" name="Email" placeholder="Enter your email">
+				</div>
+				</div>
+			    <div class="row-tab">
+				<div class="label-tab">
+				    <label>Phone Number</label>
+				</div>
+				<div class="input-tab">
+				    <input type="number" name="Phone Number" placeholder="Phone Number">
+				</div>
+				</div>
+		        <div class="row-tab">
+				    <div class="label-tab">
+					    <label>What type of member in MCPA?</label>
+					</div>
+					<div class="select-tab">
+					    <select id="select-box">
+						    <option>Student</option>
+							<option>Professional</option>
+							<option>None</option>
+					    <select>
+					</div>
+				</div>
+				<div class="row-tab">
+				    <div class="label-tab">
+					    <label>Which Level do you want to apply?</label>
+					</div>
+					<div class="input-tab">
+					<div>    <input type="radio" name="suggest" value="IP"><label>IP</label> </div>
+					<div>	<input type="radio" name="suggest" value="FE"><label>FE</label> </div>
+					<div>	<input type="radio" name="suggest" value="AP"><label>AP</label> </div>
+					</div>
+				</div>
+				<div class="row-tab">
+				    <div class="label-tab">
+					    <label>
+						   Choose Exam Center
+						</label>
+					</div>
+					<div class="select-tab">
+					    <select id="select-box">
+						    <option>Select an option</option>
+							<option>Yangon</option>
+							<option>Mandalay</option>
+						</select>
+					</div>
+				</div>
+				<div class="row-tab">
+			        <div class="label-tab">
+					    <label>Payment Type</label>
+					</div>
+					<div class="input-tab">
+					<div>   <input type="radio" name="project" value="KBZ"><label>KBZ</label> </div>
+					<div>	<input type="radio" name="project" value="AYA"><label>AYA</label> </div>
+					<div>	<input type="radio" name="project" value="CB"><label>CB</label> </div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+
+</body>
+</html>
+
